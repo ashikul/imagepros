@@ -41,8 +41,12 @@
 }
 
 #top {
-    background: #A0D13E;
+    background: gainsboro;
     color: black;
+}
+
+#toptext {
+    color: white;
 }
 
 .mainvideoblock {
