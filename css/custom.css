@@ -156,3 +156,8 @@
 #copyright p {
     margin: 0;
 }
+
+.headertext {
+    color: white;
+    font-size: larger;
+}
