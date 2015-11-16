@@ -14,8 +14,8 @@
           rel='stylesheet' type='text/css'>
 
     <!-- Bootstrap and Font Awesome css -->
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <!-- Css animations  -->
     <link href="css/animate.css" rel="stylesheet">
@@ -28,9 +28,9 @@
 
     <!-- Responsivity for older IE -->
     <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <!--<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>-->
+    <!--<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>-->
+    <!--<![endif]&ndash;&gt;-->
 
     <!-- Favicon and apple touch icons-->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
@@ -42,17 +42,7 @@
     <link href="css/social.css" rel="stylesheet">
     <meta charset="UTF-8">
     <title></title>
-    <script>
-        window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"><\/script>')
-    </script>
-    <script>
-        $(function () {
-            $("#singleheader").load("singleheader.html");
-            $("#maincontent").load("maincontent.html");
-            $("#singlefooter").load("singlefooter.html");
 
-        });
-    </script>
 </head>
 
 
@@ -62,15 +52,28 @@
 <!--___________________-->
 
 <!--<div id="maincontent"></div>-->
-Hello Index
+A
 
 <!--___________________-->
 <!--Remaining section-->
 <div id="singlefooter"></div>
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>
+    window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"><\/script>')
+</script>
+<script>
+    $(function () {
+        $("#singleheader").load("singleheader.html");
+        $("#maincontent").load("maincontent.html");
+        $("#singlefooter").load("singlefooter.html");
 
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    });
+</script>
+
+<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>-->
+
+<!--<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>-->
+<script src="js/bootstrap.min.js"></script>
 
 <script src="js/jquery.cookie.js"></script>
 <script src="js/waypoints.min.js"></script>
@@ -79,8 +82,6 @@ Hello Index
 <script src="js/front.js"></script>
 
 
-<!-- owl carousel -->
-<script src="js/owl.carousel.min.js"></script>
 
 </body>
 </html>
