@@ -2599,16 +2599,16 @@ fieldset[disabled] .btn-template-primary.active {
 #footer .social a:hover {
   color: #ffffff;
 }
-#copyright {
-  background: #333;
-  color: #ccc;
-  padding: 50px 0;
-  font-size: 12px;
-  line-height: 28px;
-}
-#copyright p {
-  margin: 0;
-}
+/*#copyright {*/
+  /*background: #333;*/
+  /*color: #ccc;*/
+  /*padding: 50px 0;*/
+  /*font-size: 12px;*/
+  /*line-height: 28px;*/
+/*}*/
+/*#copyright p {*/
+  /*margin: 0;*/
+/*}*/
 @media (max-width: 991px) {
   #copyright p {
     float: none !important;

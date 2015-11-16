@@ -108,7 +108,15 @@
     background-color: #b41e04;
 }
 
-
+/*.soc-instagram {*/
+    /*background-color: #9c7c6e;*/
+/*}*/
+/*.soc-instagram:before {*/
+    /*content:'x';*/
+/*}*/
+/*.soc-instagram:hover {*/
+    /*background-color: #88685a;*/
+/*}*/
 /*2nd*/
 
 .soc2 {

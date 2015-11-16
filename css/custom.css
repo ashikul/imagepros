@@ -41,7 +41,7 @@
 }
 
 #top {
-    background: gainsboro;
+    background: #3b3b3b;
     color: black;
 }
 
@@ -137,4 +137,22 @@
     background-color: #f9f2f4;
     border-radius: 6px;
 
+}
+
+#singlefooter {
+    background-color: silver;
+    padding: 20px 0;
+    /*font-size: 12px;*/
+
+}
+
+#copyright {
+    background: #333;
+    color: #ccc;
+    padding: 40px 0;
+    font-size: 12px;
+    line-height: 28px;
+}
+#copyright p {
+    margin: 0;
 }
